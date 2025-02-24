@@ -1,5 +1,26 @@
-# SIC6-Stage2-Basten-Supremacy
+# 🌿 SIC6-Stage2-Basten-Supremacy
 
-## Welcome to Our Project
+## 🌞 Perangkat Tenaga Surya dengan AI & IoT untuk Reboisasi 🌍
 
-kok kayak jarkom ya
+### 📌 Gambaran Proyek
+Proyek ini, dikembangkan dalam **Samsung Innovation Campus**, adalah perangkat **bertenaga surya dengan AI & IoT** yang dirancang untuk membantu **usaha reboisasi** dengan memberikan **rekomendasi tanaman** berdasarkan data lingkungan secara real-time.
+
+## 🛠️ Teknologi yang Digunakan
+- **Perangkat Keras:** ESP32, Kabel Jumper, BreadBoard, OLED, Resistor, Micro USB Cable, ABS Box, Baterai Isi Ulang, Sensor GPS, Sensor Kelembaban Tanah, Sensor DHT11 (Suhu & Kelembaban), Sensor Cahaya
+
+---
+
+## 🚀 Cara Kerja
+1. **Pengumpulan Data** – Sensor mengumpulkan data lingkungan secara real-time.
+2. **Pemrosesan AI** – Model AI menganalisis kondisi dan merekomendasikan spesies tanaman yang sesuai.
+3. **Dasbor Pengguna** – Pengguna dapat memantau data dan menerima saran dari aplikasi web atau mobile.
+
+---
+
+## 📷 Demo Proyek & Screenshot
+![image](https://github.com/user-attachments/assets/521afd4f-6c28-4c9a-9e09-9b7338b7e754)
+![image](https://github.com/user-attachments/assets/75d8c52a-265e-42c8-8f07-5a8707647871)
+![image](https://github.com/user-attachments/assets/f76b7be0-f1c0-405d-b392-e15527d14d81)
+![image](https://github.com/user-attachments/assets/f4f888ba-0549-4964-aa18-cd0ce927a82f)
+
+---
