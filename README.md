@@ -12,8 +12,16 @@ Proyek ini, dikembangkan dalam **Samsung Innovation Campus**, adalah perangkat *
 
 ## 🚀 Cara Kerja
 1. **Pengumpulan Data** – Sensor mengumpulkan data lingkungan secara real-time.
-2. **Pemrosesan AI** – Model AI menganalisis kondisi dan merekomendasikan spesies tanaman yang sesuai.
-3. **Dasbor Pengguna** – Pengguna dapat memantau data dan menerima saran dari aplikasi web atau mobile.
+   Untuk mengumpulkan data secara real-time dan secara bersamaan menyimpannya, kami menggunakan sebuah program yang dijalankan oleh ESP32 (bernamakan main.py). Berikut adalah hal-hal yang dilakukan oleh program tersebut:
+   - Membaca data yang dikoleksi oleh DHT11 dan mengolahnya
+   - Membuat sebuah koneksi dengan WiFi yang telah ditentukan
+   - Mengirimkan data yang telah diolah ke Ubidots
+   - Menyimpan data yang telah diolah di sebuah _collection_ MongoDB
+  
+  Pengiriman data untuk ditampilkan oleh Ubidots dapat dilakukan langsung oleh ESP32 dengan programnya (main.py), namun penyimpanan data ke dalam _collection_ MongoDB perlu dilakukan melalui sebuah API eksternal. Untuk itu, kami membuat sebuah aplikasi kecil yang diberikan nama app.py. Aplikasi ini menggunakan Python Flask untuk menerima data pada route "/post_data". Lalu, aplikasi akan menyimpannya ke dalam sebuah _collection_ MongoDB yang sudah ditentukan. Dengan ini, ESP32 dapat mengirimkan data pada Ubidots serta secara tidak langsung menyimpannya di MongoDB.
+     
+3. **Pemrosesan AI** – Model AI menganalisis kondisi dan merekomendasikan spesies tanaman yang sesuai.
+4. **Dasbor Pengguna** – Pengguna dapat memantau data dan menerima saran dari aplikasi web atau mobile.
 
 ---
 
