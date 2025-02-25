@@ -19,7 +19,7 @@ Sensor mulanya mengumpulkan data lingkungan secara real-time. Untuk mengumpulkan
    - Mengirimkan data yang telah diolah ke Ubidots
    - Menyimpan data yang telah diolah di sebuah _collection_ MongoDB
   
-   Pengiriman data untuk ditampilkan oleh Ubidots dapat dilakukan langsung oleh ESP32 dengan programnya (main.py), namun penyimpanan data ke dalam _collection_ MongoDB perlu dilakukan melalui sebuah API eksternal. Untuk itu, kami membuat sebuah aplikasi kecil yang diberikan nama app.py. Aplikasi ini menggunakan Python Flask untuk menerima data pada route "/post_data".  Lalu, aplikasi akan menyimpannya ke dalam sebuah _collection_ MongoDB yang sudah ditentukan. Supaya API dapat diakses secara global, maka kami mendeployment app.py pada platform Railway yang disertakan dengan requirements.txt dan file Procfile untuk kebutuhan deployment. Dengan ini, ESP32 dapat mengirimkan data pada Ubidots serta secara tidak langsung menyimpannya di MongoDB.
+   Pengiriman data untuk ditampilkan oleh Ubidots dapat dilakukan langsung oleh ESP32 dengan programnya (main.py), namun penyimpanan data ke dalam _collection_ MongoDB perlu dilakukan melalui sebuah API eksternal. Untuk itu, kami membuat sebuah aplikasi kecil yang diberikan nama app.py. Aplikasi ini menggunakan Python Flask untuk menerima data pada route "/post_data".  Lalu, aplikasi akan menyimpannya ke dalam sebuah _collection_ MongoDB yang sudah ditentukan. Supaya API dapat diakses secara global, maka kami mendeployment app.py pada platform Railway yang disertakan dengan requirements.txt dan file Procfile untuk kebutuhan deployment. Dengan ini, ESP32 dapat mengirimkan data pada Ubidots serta secara tidak langsung menyimpannya di MongoDB. Kami juga menambahkan dht.py sebagai driver bagi sensor DHT11.
    
 ---
 
@@ -28,8 +28,17 @@ Proyek kami sebetulnya merupakan perangkat **IoT** yang dilengkapi dengan **AI**
 
 ## 📷 Demo Proyek & Screenshot
 ![image](https://github.com/user-attachments/assets/521afd4f-6c28-4c9a-9e09-9b7338b7e754)
+Gambar Data Masuk ke Ubidots
+
 ![image](https://github.com/user-attachments/assets/75d8c52a-265e-42c8-8f07-5a8707647871)
+Gambar Data Masuk ke MongoDB Atlas
+
 ![image](https://github.com/user-attachments/assets/f76b7be0-f1c0-405d-b392-e15527d14d81)
+Gambar script main.py
+
 ![image](https://github.com/user-attachments/assets/f4f888ba-0549-4964-aa18-cd0ce927a82f)
+Gambar script dht.py
+
+
 
 ---
