@@ -27,6 +27,11 @@ Sensor mulanya mengumpulkan data lingkungan secara real-time. Untuk mengumpulkan
 Proyek kami sebetulnya merupakan perangkat **IoT** yang dilengkapi dengan **AI** untuk mengumpulkan data lingkungan secara *real-time*. Kemudian data dianalisis oleh **AI** dan dihasilkanlah rekomendasi-rekomendasi tanaman yang sebaiknya ditanam untuk membantu tindakan **penghijauan**. Akan tetapi, karena keterbatasan alat, bahan, dan waktu, kami tidak sempat merealisasikan proyek ide kami ini.
 
 ## 📷 Demo Proyek & Screenshot
+
+![Ubidots_Datagraph](https://github.com/user-attachments/assets/405b1f6f-8e07-4bd7-87cd-60afaf583db5)
+Gambar Graph Data di Ubidots
+
+
 ![image](https://github.com/user-attachments/assets/521afd4f-6c28-4c9a-9e09-9b7338b7e754)
 Gambar Data Masuk ke Ubidots
 
@@ -43,6 +48,7 @@ Gambar script dht.py
 Gambar script main.py
 
 
-
+![shell](https://github.com/user-attachments/assets/1e20892e-1c4c-41e5-b0af-e4a842d82d15)
+Gambar Shell pada Thonny IDE
 
 ---
