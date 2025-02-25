@@ -30,14 +30,18 @@ Proyek kami sebetulnya merupakan perangkat **IoT** yang dilengkapi dengan **AI**
 ![image](https://github.com/user-attachments/assets/521afd4f-6c28-4c9a-9e09-9b7338b7e754)
 Gambar Data Masuk ke Ubidots
 
+
 ![image](https://github.com/user-attachments/assets/75d8c52a-265e-42c8-8f07-5a8707647871)
 Gambar Data Masuk ke MongoDB Atlas
 
+
 ![image](https://github.com/user-attachments/assets/f76b7be0-f1c0-405d-b392-e15527d14d81)
-Gambar script main.py
+Gambar script dht.py
+
 
 ![image](https://github.com/user-attachments/assets/f4f888ba-0549-4964-aa18-cd0ce927a82f)
-Gambar script dht.py
+Gambar script main.py
+
 
 
 
