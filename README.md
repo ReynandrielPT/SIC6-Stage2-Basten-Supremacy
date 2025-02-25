@@ -53,6 +53,7 @@ Gambar Shell pada Thonny IDE
 
 ## Link
 Ubidots
+
 https://industrial.ubidots.com/app/dashboards/public/dashboard/SuYbhXzF8YUYxweGt1TFTsfuCc41Oj9PYwBKta2CR0s?navbar=true&contextbar=false
 
 ---
